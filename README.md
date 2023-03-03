@@ -19,10 +19,10 @@ Save these files in the same directory
 2. Download CipherSechs_PUBLIC.asc and the *.sig file from [here](https://github.com/CipherSechs/GPG)  
 3. Run Kleopatra, click on IMPORT.
 4. Select the **CipherSechs_PUBLIC.asc** file
-5. Find the **@ciphersechs_20230301.vtoy.sig** file and double click on it.
-   "Operation 1: Verifying: '@ciphersechs_20230301.vtoy' with '@ciphersechs_20230301.vtoy.sig'..." will show up
-   This process will take a couple of minutes
-6. When the operation has finished.  Click on "Show Audit Log"
+5. Find the **@ciphersechs_20230301.vtoy.sig** file and double click on it.  
+   "Operation 1: Verifying: '@ciphersechs_20230301.vtoy' with '@ciphersechs_20230301.vtoy.sig'..." will show up  
+   This process will take a couple of minutes.
+6. When the operation has finished, click on "Show Audit Log".
 7. The results should report "**Good signature from "CipherSechs (Linux) <ciphersechs@ciphersechs.com>**"  
 
 ```
@@ -39,3 +39,10 @@ Primary key fingerprint: 3847 AEA4 43DF DA8C FE3F  90C8 2366 A97F C53A 18EC
   - Debian/Ubuntu: **sudo apt-get install gnupg**
   - Fedora/RHEL/CentOS: **sudo dnf install gnupg**
   - Arch Linux: **sudo pacman -S gnupg**
+2. Import the **CipherSechs_PUBLIC.asc** signed key file  
+    **gpg --import CipherSechs_PUBLIC.asc**  
+3. Verify that the CipherSechs_PUBLIC.asc key has been imported  
+    **gpg --list-keys**
+4. Verify the **@ciphersechs_20230301.vtoy.sig** signature file with the **@ciphersechs_20230301.vtoy** file
+    **gpg --verify **@ciphersechs_20230301.vtoy.sig**
+5. Confirm that results show "**Good signature from "CipherSechs (Linux) <ciphersechs@ciphersechs.com>**"(as above)
