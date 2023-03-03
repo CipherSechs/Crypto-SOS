@@ -61,21 +61,22 @@ This creates a 1kb file that will be identified by Windows Hyper-V as a .VHD fil
 
 ## Usage
 ### Linux
-- Restart your computer, be sure that the USB drive is plugged in
+- Restart your computer, be sure that the USB drive is plugged in.
 - Depending on your motherboard BIOS, press one of the function keys to bypass boot priority in BIOS.
-  eg. for ASUS motherboards the key is F8
-- Select the USB drive that has the .VTOY file installed on it.  The Linux OS will automatically boot
+  eg. for ASUS motherboards the key is F8.
+- Select the USB drive that has the .VTOY file installed on it.  The Linux OS will automatically boot.
 
 ### Windows Hyper-V
-- Start Windows 'Hyper-V Manager'
-- On the left pane, right click on your PC, click NEW > Virtual Machine
-- Select defaults on the first 3 prompts.  On ASSIGN MEMORY, specify at least 4096MB, click NEXT
+- Start Windows 'Hyper-V Manager'.
+- On the left pane, right click on your PC, click NEW > Virtual Machine.
+- Select defaults on the first 3 prompts.  On ASSIGN MEMORY, specify at least 4096MB, click NEXT.
 - On CONNECT VIRTUAL HARD DISK, select USE AN EXISTING VIRTUAL HARD DISK.  Locate and select the .VHD file on the USB drive
-- Click FINISH
-- On the MIDDLE PANE where it lists Virtual Machines; select the VM you just created, RIGHT CLICK > SETTINGS
-- Go to MEMORY, and change RAM to 4096(minimum), click APPLY
-- Go to PROCESSOR, and change NUMBER OF VIRTUAL PROCESSORS to 3(minimum), click APPLY
+- Click FINISH.
+- On the MIDDLE PANE where it lists Virtual Machines; select the VM you just created, RIGHT CLICK > SETTINGS.
+- Go to MEMORY, and change RAM to 4096(minimum), click APPLY.
+- Go to PROCESSOR, and change NUMBER OF VIRTUAL PROCESSORS to 3(minimum), click APPLY.
 - Scroll down to CHECKPOINTS.  UNCHECK **Enable checkpoints**
 *If Enable checkpoints is tick, it won't allow changes on the image to be updated properly*
-- Right click on the VM you just created, and click CONNECT
-- Click START
+- Right click on the VM you just created, and click CONNECT.
+- Click START, the Linux OS should now start in a Virtual Machine  
+*NOTE: You are unable to use the Trezor or Ledger hardware wallets through the VM*
