@@ -43,20 +43,21 @@ Primary key fingerprint: 3847 AEA4 43DF DA8C FE3F  90C8 2366 A97F C53A 18EC
     **gpg --import CipherSechs_PUBLIC.asc**  
 3. Verify that the CipherSechs_PUBLIC.asc key has been imported  
     **gpg --list-keys**
-4. Verify the **@ciphersechs_20230301.vtoy.sig** signature file with the **@ciphersechs_20230301.vtoy** file
-    **gpg --verify **@ciphersechs_20230301.vtoy.sig**
+4. Verify the **@ciphersechs_20230301.vtoy.sig** signature file with the **@ciphersechs_20230301.vtoy** file  
+    **gpg --verify @ciphersechs_20230301.vtoy.sig**
 5. Confirm that results show "**Good signature from "CipherSechs (Linux) <ciphersechs@ciphersechs.com>**"(as above)
 
 
 ## Installation
 1. You'll need to boot into Windows and download and install [Ventoy](https://ventoy.net/en/download.html)
-2. Have a USB flash drive(16GB+) and preferably USB 3.0/3.1/3.2
+2. Have a USB flash drive(16GB+) that is preferably USB 3.0/3.1/3.2 speed.
 3. Run Ventoy2Disk.exe, to install Ventoy on the USB flash drive.  
-   ** **IMPORTANT: You MUST format the drive as NTFS if you require the @ciphersechs_20230301.vtoy file to be compatible with Windows Hyper-V Virtual Machine** **
+   In one of the drop down menu's you can choose to partition the USB as exFAT(able to r/w with MacOS) or NTFS.  
+  ** **IMPORTANT: You MUST format the drive as NTFS if you require the @ciphersechs_20230301.vtoy file to be compatible with Windows Hyper-V Virtual Machine** **
 5. Copy the **@ciphersechs_20230301.vtoy** to the USB drive
 6. Go into the command prompt on the USB drive and create a symbolic link  
-   **mklink @ciphersechs_20230301.vth @ciphersechs_20230301.vtoy**  
-This creates a 1kb file that will be identified by Windows Hyper-V as a .VHD file, but points to the .VTOY file.  
+   **mklink @ciphersechs_20230301.vhd @ciphersechs_20230301.vtoy**  
+This creates a 1kb file(symbolic link) that will be identified by Windows Hyper-V as a .VHD file, but points to the .VTOY file.  
 *NOTE: You can configure the Ventoy boot settings using VentoyPlugson.exe to change default timeouts, GUI/CLI output, background, etc*
 
 ## Usage
