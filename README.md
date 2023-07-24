@@ -3,11 +3,14 @@
 A USB Bootable Image(Ventoy) file that can be also be used in a Window Hyper-V.
 
 ### Download Link
-Source: https://mega.nz/folder/xpgCkagT#avNUl7RJFLCYA8hwDAwq9A  
-**Link Expires 20230701**
+Source: https://mega.nz/file/1f5WCCBL#0o_DT48GZKO1XiCyGxZp6IdLoR3vACr2Pdcqe03o8VM
 
 ### Verify
-GPG: https://github.com/CipherSechs/GPG
+https://github.com/CipherSechs/GPG
+MD5: f812f29e575869eba15c65d93d292198
+SHA1: a375a789c46d73d3832d8a67b288a45118998637
+SHA256: 2d40b241da8b261071eb1d862a6bb75681bbbd08363cfed427908619c9fb825c
+SHA512: b97e39403560319021aca4eb9524bb89854bb40565d0b9b7c3579f7d2f43c66baabdb30c81cd07c36d16619ec0c82b9cb15b36a6b30f90a8d40d682713dcc13e
 
 ### Saving
 Save these files in the same directory
