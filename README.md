@@ -7,23 +7,31 @@ Source: https://mega.nz/file/1f5WCCBL#0o_DT48GZKO1XiCyGxZp6IdLoR3vACr2Pdcqe03o8V
 
 ### Verify
 https://github.com/CipherSechs/GPG
+
+### Checksums
 MD5: f812f29e575869eba15c65d93d292198
+
 SHA1: a375a789c46d73d3832d8a67b288a45118998637
+
 SHA256: 2d40b241da8b261071eb1d862a6bb75681bbbd08363cfed427908619c9fb825c
+
 SHA512: b97e39403560319021aca4eb9524bb89854bb40565d0b9b7c3579f7d2f43c66baabdb30c81cd07c36d16619ec0c82b9cb15b36a6b30f90a8d40d682713dcc13e
+
+_(GtkHash to verify the above, use it if you are not sure how to use GPG)_
+
 
 ### Saving
 Save these files in the same directory
- - @ciphersechs_20230323.vtoy
- - @ciphersechs_20230323.vtoy.sig
+ - CipherSechs.vtoy
+ - CipherSechs.vtoy.sig
 
 ### Windows
 1. Download [GPG4WIN](https://www.gpg4win.org/)
 2. Download **CipherSechs_PUBLIC.asc** and the .sig file from [here](https://github.com/CipherSechs/GPG)  
 3. Run Kleopatra, click on IMPORT.
 4. Select the **CipherSechs_PUBLIC.asc** file
-5. Find the **@ciphersechs_20230301.vtoy.sig** file and double click on it.  
-   "Operation 1: Verifying: '@ciphersechs_20230301.vtoy' with '@ciphersechs_20230301.vtoy.sig'..." will show up  
+5. Find the **CipherSechs.vtoy.sig** file and double click on it.  
+   "Operation 1: Verifying: 'CipherSechs.vtoy' with 'CipherSechs.vtoy.sig'..." will show up  
    This process will take a couple of minutes.
 6. When the operation has finished, click on "Show Audit Log".
 7. The results should report "**Good signature from "CipherSechs (Linux) <ciphersechs@ciphersechs.com>**"  
@@ -46,8 +54,8 @@ Primary key fingerprint: 3847 AEA4 43DF DA8C FE3F  90C8 2366 A97F C53A 18EC
     **gpg --import CipherSechs_PUBLIC.asc**  
 3. Verify that the CipherSechs_PUBLIC.asc key has been imported  
     **gpg --list-keys**
-4. Verify the **@ciphersechs_20230301.vtoy.sig** signature file with the **@ciphersechs_20230301.vtoy** file  
-    **gpg --verify @ciphersechs_20230301.vtoy.sig**
+4. Verify the **CipherSechs.vtoy.sig** signature file with the **CipherSechs.vtoy** file  
+    **gpg --verify CipherSechs.vtoy.sig**
 5. Confirm that results show "**Good signature from "CipherSechs (Linux) <ciphersechs@ciphersechs.com>**"(as above)
 
 
@@ -56,10 +64,10 @@ Primary key fingerprint: 3847 AEA4 43DF DA8C FE3F  90C8 2366 A97F C53A 18EC
 2. Have a USB flash drive(16GB+) that is preferably USB 3.0/3.1/3.2 speed.
 3. Run Ventoy2Disk.exe, to install Ventoy on the USB flash drive.  
    In one of the drop down menu's you can choose to partition the USB as exFAT(able to r/w with MacOS) or NTFS.  
-  ** **IMPORTANT: You MUST format the drive as NTFS if you require the @ciphersechs_20230301.vtoy file to be compatible with Windows Hyper-V Virtual Machine** **
-5. Copy the **@ciphersechs_20230301.vtoy** to the USB drive
+  ** **IMPORTANT: You MUST format the drive as NTFS if you require the CipherSechs.vtoy file to be compatible with Windows Hyper-V Virtual Machine** **
+5. Copy the **CipherSechs.vtoy** to the USB drive
 6. Go into the command prompt on the USB drive and create a symbolic link  
-   **mklink @ciphersechs_20230301.vhd @ciphersechs_20230301.vtoy**  
+   **mklink CipherSechs.vhd CipherSechs.vtoy**  
 This creates a 1kb file(symbolic link) that will be identified by Windows Hyper-V as a .VHD file, but points to the .VTOY file.  
 *NOTE: You can configure the Ventoy boot settings using VentoyPlugson.exe to change default timeouts, GUI/CLI output, background, etc*
 
