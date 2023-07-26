@@ -1,6 +1,7 @@
-# Linux OS
+# Crypto SOS
 ## Description
 A USB Bootable Image(Ventoy) file that can be also be used in a Window Hyper-V.
+A full Linux OS installed based on Bunsenlabs (Debian 11)
 
 ### Download Link
 Source: https://mega.nz/file/VfRQUb7K#3hGxmu4l6l54tEE3cGPyY5qYRrNetLSR8l1OyfxQrmY
