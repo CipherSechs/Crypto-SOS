@@ -1,7 +1,24 @@
-# Crypto SOS
-## Description
-A USB Bootable Image(Ventoy) file that can be also be used in a Window Hyper-V.
-A full Linux OS installed based on Bunsenlabs (Debian 11)
+# Crypto-SOS
+## Description - A full Linux OS install that runs off a 16GB Thumb Drive
+This is a self-contained *.vtoy([VENTOY](https://www.ventoy.net/en/index.html)) file which has a distro named [Bunsenlabs](https://www.bunsenlabs.org/)(based on Debian 11)that can be also be used in a Window Hyper-V.<br><br>
+This is an operating system based on Debian 11 which I personally use.  It's essentially what I use when I need to use an OS<br>
+that won't be as susceptible to malware/viruses like Windows can be.  I use it mainly to transact crypto with.
+
+* The OS contains the usual office and file programs that other Linux OS's have.<br>
+* LibreWriter, LibreCalc, GIMP, Inkscape are installed.  Flameshot gui installed for window screenshots/clipping<br>
+* It also has Feather wallet(monero) installed, and Trezor Suite and Ledger Live; both as AppImages.<br>
+* It also has KeePassXC the highly recommended FOSS password manager; also as an Appimage.<br>
+* KeePassXC is also sandboxed via Firejail so there is no network traffic.<br>
+* Default DNS is set as [Quad9](https://www.quad9.net/) for security and privacy.<br>
+* Chrome, FireFox, Brave and LibreWolf are installed for browser isolation.<br>
+* Decentraleyes, Malwarebytes Browser Guard, Privacy Badger and uBlock Origin browser extensions are all installed on them also.<br>
+* TrueCrypt, VeraCrypt, ZuluCrypt and GngPG are also installed for encryption.<br>
+* The Linux OS is password protected with LUKS encryption on bootup(password can be changed to suit).<br>
+* Virtual Machine Manager(Virt-manager) is already installed, as is DOSBOX and MAME emulator.<br>
+* Seahorse and Yubico Authenticator(FIDO2/MFA) is also installed too.
+* IPFS Desktop installed(AppImage)
+
+
 
 ### Download Link
 Source: https://mega.nz/file/VfRQUb7K#3hGxmu4l6l54tEE3cGPyY5qYRrNetLSR8l1OyfxQrmY
