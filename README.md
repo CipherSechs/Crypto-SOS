@@ -21,7 +21,7 @@ AppImages are used where available as it's more user-friendly to non Linux enthu
 * TrueCrypt, VeraCrypt, ZuluCrypt and GngPG are also installed for encryption.<br>
 * The Linux OS is password protected with LUKS encryption on bootup(password can be changed to suit).<br>
 * Virtual Machine Manager(Virt-manager) is already installed, as is DOSBOX and MAME emulator.<br>
-* Seahorse and Yubico Authenticator(FIDO2/MFA) is also installed too.
+* Seahorse and Yubico Authenticator(FIDO2/MFA) are installed too.
 * IPFS Desktop installed.(AppImage)
 * REALTIME prices of Cryptocurrencies..<br>
   #### There is an editable "WATCH ADDRESSESS" section where you can enter your BTC or LTC address
