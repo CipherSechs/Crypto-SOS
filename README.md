@@ -17,8 +17,15 @@ that won't be as susceptible to malware/viruses like Windows can be.  I use it m
 * Virtual Machine Manager(Virt-manager) is already installed, as is DOSBOX and MAME emulator.<br>
 * Seahorse and Yubico Authenticator(FIDO2/MFA) is also installed too.
 * IPFS Desktop installed(AppImage)
+* REALTIME prices of Cryptocurrencies
 
+![PHOTO](https://github.com/CipherSechs/Crypto-SOS/blob/main/CSOS%20Prices.png)
 
+* RSS Feeds from Decrypt and Cryptopanic news aggregators for up to date CryptoNews.
+
+![PHOTO](https://github.com/CipherSechs/Crypto-SOS/blob/main/CSOS%20RSS.png)
+
+* Editable NOTES section that stays on the desktop(similar to BGINFO application on Windows machines)
 
 ### Download Link
 Source: https://mega.nz/file/VfRQUb7K#3hGxmu4l6l54tEE3cGPyY5qYRrNetLSR8l1OyfxQrmY
