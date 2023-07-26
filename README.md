@@ -3,20 +3,17 @@
 A USB Bootable Image(Ventoy) file that can be also be used in a Window Hyper-V.
 
 ### Download Link
-Source: https://mega.nz/file/1f5WCCBL#0o_DT48GZKO1XiCyGxZp6IdLoR3vACr2Pdcqe03o8VM
+Source: https://mega.nz/file/VfRQUb7K#3hGxmu4l6l54tEE3cGPyY5qYRrNetLSR8l1OyfxQrmY
 
 ### Verify
 https://github.com/CipherSechs/GPG
 
 ### Checksums
-MD5: f812f29e575869eba15c65d93d292198
-
-SHA1: a375a789c46d73d3832d8a67b288a45118998637
-
-SHA256: 2d40b241da8b261071eb1d862a6bb75681bbbd08363cfed427908619c9fb825c
-
-SHA512: b97e39403560319021aca4eb9524bb89854bb40565d0b9b7c3579f7d2f43c66baabdb30c81cd07c36d16619ec0c82b9cb15b36a6b30f90a8d40d682713dcc13e
-
+MD2:    1678783319f9ed0834c0967d5795b806<br><br>
+MD5:    ee975db0335b3fe23958854cc885e899<br><br>
+SHA1:   9530e0038477eeda7b32c0012660c3b22e2492ab<br><br>
+SHA256: 22e1602d75628e354892680a33d65929842d8dcbb3b71669280aa0e4e9bd056<br><br>
+SHA512: 5592709a92882f457a20242e4879eed8b11b5f1b2a41146849f03d08bc46cc5e3a30dafcfd57ffdcea5bd1c9edf6297693a305a784f48b6550f4b90f5daf8018<br><br>
 _(GtkHash to verify the above, use it if you are not sure how to use GPG)_
 
 
