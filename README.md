@@ -56,7 +56,7 @@ SHA1:   c4bd9c3cdc47454f710a3ecec3377980ab5f9099<br><br>
 SHA256: d34cea92d768fd803799f11277b00ce706c142387dbfbeb4bc8bd124294f1cff<br><br>
 SHA512: dd4bb99652c0966e65ba48195becc00ee7d32f19f11c36b63cfc393c1ee9ee4837a717312c5f4382c20bfc88d9074e8fceca4fe659ffe228bd8e4ea41ef77f20<br><br>
 _(GtkHash to verify the above, use it if you are not sure how to use GPG)_
-![PHOTO](https://github.com/CipherSechs/Crypto-SOS/blob/main/CipherSechs%20HASH.png)
+![PHOTO](https://github.com/CipherSechs/Crypto-SOS/blob/main/CipherSechs%20GtkHash.png)  
 
 ### Saving
 Save these files in the same directory
