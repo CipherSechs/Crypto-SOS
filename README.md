@@ -38,18 +38,23 @@ AppImages are used where available as it's more user-friendly to non Linux enthu
 * **Very low overhead of system resources**<br>
 ## Photo below shows system with 5GB RAM usage, running off a 16GB thumb drive
 ![PHOTO](https://github.com/CipherSechs/Crypto-SOS/blob/main/CSOS%20Apps01.png)
-### Download Link
-Source: https://mega.nz/file/VfRQUb7K#3hGxmu4l6l54tEE3cGPyY5qYRrNetLSR8l1OyfxQrmY
+
+
+### Download Link - UEFI systems
+https://mega.nz/folder/9XlBUA7Q#lQAg5-orpRjKmRTdZiSJAw<br>
+Contains:<br>
+   CipherSechs.vtoy      (_UEFI_ bootable, copy this Ventoy file to your USB drive)<br>
+   CipherSechs.vtoy.sig  (verify this file using GPG)<br>
 
 ### Verify
 https://github.com/CipherSechs/GPG
 
 ### Checksums
-MD2:    1678783319f9ed0834c0967d5795b806<br><br>
-MD5:    ee975db0335b3fe23958854cc885e899<br><br>
-SHA1:   9530e0038477eeda7b32c0012660c3b22e2492ab<br><br>
-SHA256: 22e1602d75628e354892680a33d65929842d8dcbb3b71669280aa0e4e9bd056<br><br>
-SHA512: 5592709a92882f457a20242e4879eed8b11b5f1b2a41146849f03d08bc46cc5e3a30dafcfd57ffdcea5bd1c9edf6297693a305a784f48b6550f4b90f5daf8018<br><br>
+MD2:    424ece18c581703d9a0fb5a94c0dc305<br><br>
+MD5:    6558797a06948a9a362317fe05870a77<br><br>
+SHA1:   c4bd9c3cdc47454f710a3ecec3377980ab5f9099<br><br>
+SHA256: d34cea92d768fd803799f11277b00ce706c142387dbfbeb4bc8bd124294f1cff<br><br>
+SHA512: dd4bb99652c0966e65ba48195becc00ee7d32f19f11c36b63cfc393c1ee9ee4837a717312c5f4382c20bfc88d9074e8fceca4fe659ffe228bd8e4ea41ef77f20<br><br>
 _(GtkHash to verify the above, use it if you are not sure how to use GPG)_
 ![PHOTO](https://github.com/CipherSechs/Crypto-SOS/blob/main/CipherSechs%20HASH.png)
 
